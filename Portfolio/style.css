@@ -100,13 +100,12 @@ h4 {
 }
 
 
-/* ВАЖНО: делаем навигацию в один ряд */
 nav {
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* логотип слева, ссылки справа */
+  justify-content: space-between;
   padding: 0 40px;
 }
 
@@ -116,7 +115,6 @@ nav {
   margin-right: 4rem;
 }
 
-/* Убираем маркеры у списка */
 nav ul {
   list-style: none;
   display: flex;
@@ -125,7 +123,6 @@ nav ul {
   padding: 0;
 }
 
-/* Ссылки */
 nav a {
   color: #fff;
   text-decoration: none;
